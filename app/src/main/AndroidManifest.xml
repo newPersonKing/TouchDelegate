@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.peter.viewgrouptutorial">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".expandtouch.ExpandTouchActivity4"></activity>
+        <activity android:name=".expandtouch.ExpandTouchActivity3" />
+        <activity android:name=".expandtouch.ExpandTouchActivity2" />
+        <activity android:name=".expandtouch.ExpandTouchActivity1" />
+        <activity android:name=".popupwindow.PopupWindowActivity" />
+        <activity android:name=".dialog.DialogActivity2" />
+        <activity
+            android:name=".dialog.DialogActivity"
+            android:theme="@style/dialogstyle" />
+        <activity android:name=".dialog.MainDialogActivity" />
+        <activity android:name=".dialog.TestDialogActivity" />
+        <activity
+            android:name=".offsetproblem.FixOffsetProblemActivityWithPreDraw"
+            android:hardwareAccelerated="false" />
+        <activity
+            android:name=".offsetproblem.FixOffsetProblemActivityWithPost"
+            android:hardwareAccelerated="false" />
+        <activity
+            android:name=".offsetproblem.FixOffsetProblemActivityWithAlpha"
+            android:hardwareAccelerated="false" />
+        <activity android:name=".offsetproblem.OffsetProblemConfirmActivity" />
+        <activity
+            android:name=".offsetproblem.OffsetProblemConfirmActivity2"
+            android:hardwareAccelerated="false" />
+        <activity
+            android:name=".offsetproblem.OffsetProblemActivity"
+            android:hardwareAccelerated="false" />
+        <activity
+            android:name=".coordinatorlayout.FloatScrollingActivity"
+            android:label="@string/title_activity_float_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".coordinatorlayout.FloatingActionButtonActivity" />
+        <activity android:name=".coordinatorlayout.GaodeActivity" />
+        <activity android:name=".coordinatorlayout.BottomSheetBehaviorActivity" />
+        <activity android:name=".coordinatorlayout.BottomSheetBehaviorActivity2" />
+        <activity android:name=".coordinatorlayout.BottomSheetBehaviorActivity3" />
+        <activity android:name=".coordinatorlayout.BottomSheetBehaviorActivity4" />
+        <activity android:name=".coordinatorlayout.BottomSheetBehaviorActivity5" />
+        <activity android:name=".activity.TestLinearLayoutActivity" />
+        <activity android:name=".fragments.FragmentActivity1" />
+        <activity android:name=".fragments.FragmentActivity2" />
+        <activity android:name=".dispatchevent.CoordinatorLayoutDependentActivity" />
+        <activity android:name=".dispatchevent.CoordinatorLayoutAnchorActivity" />
+        <activity android:name=".dispatchevent.CoordinatorLayoutEventOneActivity" />
+        <activity android:name=".dispatchevent.CoordinatorLayoutEventTwoActivity" />
+        <activity android:name=".dispatchevent.CoordinatorLayoutEventThreeActivity" />
+        <activity android:name=".dispatchevent.CoordinatorLayoutEventFourActivity" />
+        <activity android:name=".textview.TransformationTextViewActivity" />
+        <activity android:name=".textview.PromiseTextViewActivity" />
+        <activity android:name=".jetpack.navigation.NavigationActivity" />
+        <activity android:name=".activity.DashboardActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RemoveViewsActivity" />
+        <activity android:name=".coordinatorlayout.CoordinatorEventActivity" />
+        <activity android:name=".coordinatorlayout.jd.JdStickyHeaderAppBarLayoutActivity" />
+        <activity android:name=".coordinatorlayout.AppbarLayoutExampleActivity" />
+        <activity android:name=".coordinatorlayout.CoordinatorLayoutActivity" />
+        <activity android:name=".nestedscroll.ScrollingFiveActivity" />
+        <activity android:name=".nestedscroll.ScrollFourActivity" />
+        <activity android:name=".nestedscroll.ScrollSixActivity" />
+        <activity android:name=".nestedscroll.ScrollThreeActivity" />
+        <activity android:name=".nestedscroll.ScrollOneActivity" />
+        <activity android:name=".nestedscroll.ScrollTwoActivity" />
+        <activity android:name=".viewpager2.ViewPager2RecyclerViewActivity" />
+        <activity android:name=".viewpager2.ViewPager2WithFragmentsActivity" />
+        <activity android:name=".recyclerview.DragAndSwipeRecyclerViewActivity" />
+        <activity android:name=".recyclerview.ItemDecorationRecyclerViewActivity" />
+        <activity android:name=".recyclerview.ItemLongClickRecyclerViewActivity" />
+        <activity android:name=".recyclerview.LinearSnapRecyclerViewActivity" />
+        <activity android:name=".recyclerview.ViewPagerSnapRecyclerViewActivity" />
+        <activity android:name=".recyclerview.RecyclerViewActivityComplexLayout" />
+        <activity android:name=".recyclerview.RemoveItemsRecyclerViewActivity" />
+        <activity android:name=".recyclerview.InsertItemsRecyclerViewActivity" />
+        <activity android:name=".recyclerview.UpdateItemsRecyclerViewActivity" />
+        <activity android:name=".recyclerview.MoveItemsRecyclerViewActivity" />
+        <activity android:name=".recyclerview.MixsItemsRecyclerViewActivity" />
+        <activity android:name=".recyclerview.NotifyNoneStableIdRecyclerViewActivity" />
+        <activity android:name=".recyclerview.NotifyStableIdRecyclerViewActivity" />
+        <activity android:name=".recyclerview.RecyclerViewActivityNotify" />
+        <activity android:name=".recyclerview.RecyclerViewActivityDiffUtil" />
+        <activity android:name=".recyclerview.RecyclerViewNestedActivity" />
+        <activity android:name=".recyclerview.RecyclerViewActivity2" />
+        <activity android:name=".recyclerview.RecyclerViewActivity1" />
+        <activity android:name=".recyclerview.RecyclerViewActivityAnimate" />
+        <activity android:name=".recyclerview.RecyclerViewTestActivity" />
+        <activity android:name=".stickyheader.MyRecyclerViewActivity" />
+        <activity android:name=".measure.MeasureLinearLayoutTreeActivity" />
+        <activity android:name=".measure.MeasureFrameLayoutTreeActivity" />
+        <activity android:name=".measure.MeasureRelativeLayoutTreeActivity" />
+        <activity android:name=".stickyheader.MainActivity" />
+        <activity android:name=".measure.TextViewMeasureActivity" />
+        <activity android:name=".measure.ViewMeasureActivity" />
+        <activity android:name=".dispatchevent.CoordinatorLayoutActivity" />
+        <activity android:name=".dispatchevent.ScrollConflictActivity" />
+        <activity android:name=".dispatchevent.MyScrollViewActivity" />
+        <activity android:name=".constraintlayout.ConstraintLayoutActivity" />
+        <activity android:name=".dispatchevent.TouchThreeActivity" />
+        <activity android:name=".dispatchevent.TouchFourActivity" />
+        <activity android:name=".dispatchevent.TouchTwoActivity" />
+        <activity android:name=".dispatchevent.TouchOneActivity" />
+        <activity android:name=".dispatchevent.TouchFiveActivity" />
+        <activity android:name=".JankActivity" />
+        <activity android:name=".ViewPageActivity" />
+        <activity android:name=".GhostActivity" />
+        <activity android:name=".PictureActivity" />
+        <activity android:name=".ActivityOptionsActivity" />
+        <activity android:name=".SceneActivity" />
+        <activity
+            android:name=".AnimatedSubActivity"
+            android:windowBackground="@android:color/transparent"
+            android:windowIsTranslucent="true" />
+        <activity android:name=".WindowAnimationActivity" />
+        <activity
+            android:name=".BottomNavigation"
+            android:label="@string/title_activity_bottom_navigation"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity android:name=".BottomSheetActivity" />
+        <activity
+            android:name=".DialogActivity"
+            android:theme="@style/dialogstyle" />
+        <activity android:name=".ColorStateListActivity" />
+        <activity android:name=".CoordinateConsumeActivity" />
+        <activity android:name=".CoordinateScrollViewActivity" />
+        <activity android:name=".CoordinateLayoutActivity" />
+        <activity android:name=".ScrollViewActivity" />
+        <activity android:name=".LayoutAnimationActivity" />
+        <activity android:name=".LayoutTransitionActivity" />
+        <activity android:name=".ScrollActivity" />
+        <activity android:name=".ClipChildrenActivity" />
+        <activity android:name=".VisibilityChangedActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".BringToFrontActivity" />
+        <activity android:name=".viewpager2.CardViewActivity" />
+        <activity android:name=".viewpager2.CardFragmentActivity" />
+        <activity android:name=".viewpager2.MutableCollectionFragmentActivity" />
+        <activity android:name=".viewpager2.MutableCollectionViewActivity" />
+        <activity android:name=".viewpager2.CardViewTabLayoutActivity" />
+        <activity android:name=".viewpager2.FakeDragActivity" />
+        <activity android:name=".viewpager2.PageTransformerActivity" />
+        <activity android:name=".viewpager2.PreviewPagesActivity" />
+        <activity android:name=".viewpager2.ParallelNestedScrollingActivity" />
+        <activity android:name=".viewpager2.BrowseActivity" />
+    </application>
+
+</manifest>
